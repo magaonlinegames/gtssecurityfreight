@@ -1,0 +1,143 @@
+.sml_txt{
+    font-size: 10px!important;
+}
+
+.status span{
+    display: block;
+}
+.bxc{
+    display: inline-block;
+}
+.cnt{
+    padding: 2px 8px;
+}
+
+
+
+.LOGIN{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(oceanwave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-bx{
+    margin-top: 10px;
+    width: 98%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.91);
+    padding: 8px;
+}
+.login-bx .btn{
+    display: block;
+    background-color: #030f27!important;
+}
+@media screen and (min-width: 600px) {
+    .login-bx {
+      width: 500px;
+    }
+}
+
+#tracking_update_section td{
+    text-transform: uppercase;
+}
+
+.ACCOUNT_01{
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.ACCOUNT_01 iframe{
+    width: 100%!important;
+    height: 450px!important;
+}
+.SU span{
+    display: block;
+}
+.txtW{
+    color: white;
+}
+.txtG{
+    color: grey;
+}
+.TU{
+}
+.TU ul{
+    width: 90%;
+    margin: auto;
+}
+.TU ul li{
+    padding: 8px 0;
+    border-top: 1PX solid grey;
+    border-bottom: 1PX solid grey;
+    position: relative;
+}
+.TU ul li i{
+    display: block;
+}
+.TU ul li span{
+    display: block;
+}
+.tuSTATUS{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 19px;
+}
+.TUXXX i{
+    color: red!important;
+}
+.tuALERT{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.tuADDRESS{
+    font-size: medium;
+}
+.tuDATE{
+    font-size: small;
+}
+
+.USERDERTAILS{
+    border-top: 1px solid red;
+}
+#ORIGIN_TS_DESTINATION_PORT p{
+    margin: 0;
+}
+#ORIGIN_TS_DESTINATION_PORT .lbl{
+    color: rgb(93, 185, 0);
+    text-transform: uppercase;
+    font-weight: 10px;
+}
+.UD{
+    width: 98%;
+    margin: auto;
+    max-width: 1397px;
+}
+#CITABLE tr{
+}
+.UD span{
+    display: block;
+}
+.uiTITLE{
+    font-size: 13px;
+}
+.udCIDATA{
+    text-align: right;
+}
+#CONSIGNMENT_DELIVERY_TIME{
+    text-transform: uppercase;
+}
+.god-panel{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}

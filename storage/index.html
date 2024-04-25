@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/acc.css">
+    <link rel="stylesheet" href="css/casty.css">
+    <link rel="icon" href="../img/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Security Vault | Royal Turin Vault</title>
+  </head>
+  <body>
+    <div class="login">
+      <form class="form-horizontal"onclick="return false;">
+        <a href="index.html"><img src="logoo.jpg" id="logot" alt=""></a>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email </label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Password: </label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class="" style="text-align: center; font-size: 20px; margin-top: 20px;" id="spink">
+               <i class="fa fa-spinner fa-spin"></i>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <small id="error" class="form-text text-muted text-danger">Incorrect login details</small>
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" id="lme-in-btn">Submit</button>
+
+
+            </div>
+          </div>
+        </form>
+    </div>
+
+
+    <div class="acc-cnt" id="acc-cnt-1">
+      <header>
+      </header>
+      <div class="x-slp" id="ctls">
+        <div class="psn">
+          <h5 id="nou">Welcome: FRANK ADAMS</h5>
+          <i class="fa fa-navicon menu-psn"></i>
+          <i class="fa fa-bars menu-btn" style="display: none;" onclick="showMenu();"></i>
+        </div>
+        <ul id="ixr" class="menu-ixr">
+          <li class="profile-btn"> <i class="glyphicon glyphicon-user"></i> Profile</li>
+          <li class="contents-btn"> <i class="fa fa-bar-chart"></i> Contents</li>
+          <li class="custodial_records-btn"> <i class="fa fa-users"></i> Custodial Records </li>
+          <li class="payment_history-btn"> <i class="fa fa-money"></i> Payment History </li>
+          <li class="enquiry-btn"> <i class="fa fa-envelope"></i> Make Enquiry </li>
+          <li class="refernece-btn"> <i class="fa fa-money"></i> Reference </li>
+          <li> <i class="fa fa-sign-out"></i> <a href="index.html">Logout</a> </li>
+        </ul>
+      </div>
+      <div class="x-slp" id="x-ct"> <!-- WARNING: right -->
+
+        <div class="profile li">
+          <div class="uxb">
+            <div class="uxx">
+              <video width="320" height="240" controls>
+                <source src="img/safe.mp4" type=video/mp4>
+              </video>
+              <img src="vaultpic.jpeg" alt="" id="vaultpic">
+               <span id="smn">
+                 <h5 id="dn">Frank Adams </h5>
+                 <h5 id="em">EMAIL: <small>Adamfrank830@gmail.com </small> </h5>
+               </span>
+            </div>
+          </div>
+
+          <div class="cv">
+            <ul>
+              <li class="po">
+                <span id="nme">
+                  depositor
+                </span>
+                <span id="nmee">
+                  Customer: <small>Frank Adams </small>
+
+                  <ul>
+                    <li> <span id="xc">Represented by:</span> <small>N/A</small> </li>
+                  </ul>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  email address
+                </span>
+                <span id="nmee">
+                   <small id="lp">Adamfrank830@gmail.com</small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  next of kin
+                </span>
+                <span id="nmee">
+                   <small id="lp"> Foo Theam Yoo </small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  initial deposit
+                </span>
+                <span id="nmee">
+                   <small id="lp">15-03-2021</small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  Address
+                </span>
+                <span id="nmee">
+                   <small id="lp">
+                    4/18 J St. Achimota, Ghana
+                   </small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  date and time
+                </span>
+                <span id="nmee">
+                   <small id="lp" class="date-time">16-03-2021 : 15:55:56 pm  </small>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contents li">
+
+          <div class="iq">
+            <h5>Content by <i class="fa fa-arrow-right"></i>  Frank Adams </h5>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Box-type</th>
+                    <th scope="col">Box-qty</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody id="rf">
+                  <tr>
+                    <td id="pp"> <img src="img/gold-v.jpeg" alt=""></td>
+                    <td>380 Kilos Gold Bar(s), 24 Karat(s), Standard Gold Bar <br> <a class="btn btn-primary" id="modal-q">View Details</a> </td>
+                    <td>Medium 3" X 10" X 25" </td>
+                    <td>7 </td>
+                    <td>@2 Month </td>
+                    <td> 6  ,000.00 </td>
+                    <td> <i class="fa fa-check"></i></td>
+                    <td> 15-03-2021 </td>
+                  </tr>
+                </tbody>
+
+              </table>
+
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="custodial_records li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ref No.</th>
+                    <th scope="col">Issue Date</th>
+                    <th scope="col">Release</th>
+                    <th scope="col">Extension</th>
+                    <th scope="col">Days Left</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp"> NPV3568  </td>
+                    <td> 15-03-2021  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td> 29 days </td>
+                    <td > Current</td>
+                    <td> 15/05/2021 15:57:20 pm  </td>
+                  </tr>
+                  <tr>
+                    <td id="pp"> NPV3568  </td>
+                    <td> 15-04-2021  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td> 30 days </td>
+                    <td > Current</td>
+                    <td> 15/05/2021 00:02:12 am  </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="payment_history li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount Paid</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Content </th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp"> US$0.00   </td>
+                    <td> US$6,000.00   </td>
+                    <td> 380 Kilos Gold Bar(s), 24 Karat(s), Standard Gold Bar </td>
+                    <td>   15th April, 2021 </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="refernece li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount Paid</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Content </th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp"> US$0,000   </td>
+                    <td> US$6,000.00  </td>
+                    <td> 380KG Gold Bars </td>
+                    <td>  Monday 15th of April 2021 12:01:02 am </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="enquiry li">
+
+          <div class="iq">
+            <form>
+              <div class="form-group">
+                <small id="emailHelp" class="form-text text-muted">We usually reply within an hour</small>
+                <br>
+                <label for="exampleInputEmail1">Subject</label>
+                <input type="text" class="form-control" id="subjectType" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6 vb">
+                  <label for="emailhere">Email</label>
+                  <input type="email"class="form-control emm email-txt" name="emailhere" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6 vb vbb">
+                  <label for="phonenumber">Contact Number</label>
+                  <input class="form-control tel-txt" type="tel" name="phonenumber" value="" required>
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <label for="phonenumber">Your Message</label>
+                <textarea name="name" rows="8" cols="80" id="txt" class="form-control message-txt" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="sendMessage();">Submit</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-for-vw">
+        <div class="card"  id="cvb">
+          <div class="card-body">
+           <div class="img-cnt">
+            <img src="img/gold-v.jpeg" class="cvd-img" alt="Item Deposited">
+            <img src="img/safe.mp4" class="cvd-img" alt="Item Deposited">
+          </div>
+          <br><br>
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Purpose
+            </div>
+            <div class="col-nb-6">
+              Safe keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Box Type
+            </div>
+            <div class="col-nb-6">
+              VIP 30" X 20" X 19"
+            </div>
+
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Cost Per Box
+            </div>
+            <div class="col-nb-6">
+              $420.50
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Number of Boxes
+            </div>
+            <div class="col-nb-6">
+              07
+            </div>
+          </div>
+
+
+
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Amount Paid
+            </div>
+            <div class="col-nb-6">
+              $0.00
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Balance
+            </div>
+            <div class="col-nb-6">
+              $6,000
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Narration
+            </div>
+            <div class="col-nb-6">
+              Safe Keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Custodian Reference
+            </div>
+            <div class="col-nb-6">
+              NPV2098
+            </div>
+          </div>
+
+          <div class="container" style="width: 84%; text-align: right;">
+            <br>
+            <button type="button" name="button" class="btn btn-primary" id="modal-x">Close</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="acc-cnt account_2" id="acc-cnt-2">
+      <header>
+
+      </header>
+      <div class="x-slp" id="ctls">
+        <div class="psn">
+          <h5 id="nou">Welcome: <span class="nod depositor_name"></span>  </h5>
+          <i class="fa fa-navicon menu-psn"></i>
+          <i class="fa fa-bars menu-btn" style="display: none;" onclick="showMenu();"></i>
+        </div>
+        <ul id="ixr" class="menu-ixr">
+          <li class="profile-btn"> <i class="glyphicon glyphicon-user"></i> Profile</li>
+          <li class="contents-btn"> <i class="fa fa-bar-chart"></i> Contents</li>
+          <li class="custodial_records-btn"> <i class="fa fa-users"></i> Custodial Records </li>
+          <li class="payment_history-btn"> <i class="fa fa-money"></i> Payment History </li>
+          <li class="enquiry-btn"> <i class="fa fa-envelope"></i> Make Enquiry </li>
+          <li class="refernece-btn"> <i class="fa fa-money"></i> Reference </li>
+          <li> <i class="fa fa-sign-out"></i> <a href="acc.html">Logout</a> </li>
+        </ul>
+      </div>
+      <div class="x-slp" id="x-ct"> <!-- WARNING: right -->
+
+        <div class="profile li">
+          <div class="uxb">
+            <div class="uxx"> 
+              <img src="oppen.jpg" alt="">
+               <span id="smn">
+                  <h5 id="dn" class="nod depositor_name"> </h5>
+                 <h5 id="em">EMAIL: <small class="email_address"></small>  </h5>
+               </span>
+            </div>
+            <div class="uxx" style="display: none;">
+              <video width="320" height="240" controls>
+                <!-- victoria muller original -->
+                <source src="img/safe.mp4" type=video/mp4> 
+              </video>
+              <img src="vaultpic.jpeg" alt="" id="vaultpic" class="hide vaultPic">
+               <span id="smn">
+                 <h5 id="dn" class="nod depositor_name"> </h5>
+                 <h5 id="em">EMAIL: <small class="email_address"></small> </h5>
+               </span>
+            </div>
+          </div>
+
+          <div class="cv">
+            <ul>
+              <li class="po">
+                <span id="nme">
+                  depositor
+                </span>
+                <span id="nmee">
+                  Customer: <small class="nod depositor_name"> </small>
+
+                  <ul>
+                    <li> <span id="xc">Represented by:</span> <small class="represented_by"></small> </li>
+                  </ul>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  email address
+                </span>
+                <span id="nmee">
+                   <small id="lp" class="email_address"></small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  next of kin
+                </span>
+                <span id="nmee">
+                   <small id="lp" class="next_of_kin"></small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  initial deposit
+                </span>
+                <span id="nmee">
+                   <small id="lp"class="initial_deposit"></small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  Address
+                </span>
+                <span id="nmee">
+                   <small id="lp" class="address_db address_depositor">
+                   </small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  date and time
+                </span>
+                <span id="nmee">
+                   <small id="lp" class="date-time">2021 </small>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contents li">
+
+          <div class="iq">
+            <h5>Content by <i class="fa fa-arrow-right"></i>  <span class="nod"></span> </h5>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Box-type</th>
+                    <th scope="col">Box-qty</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody id="rf">
+                  <tr>
+                    <td id="pp"> <img src="img/gold-v.jpeg" alt=""></td>
+                    <td class="content_txt content_item"><span class=" content_item"></span> <br> <a class="btn btn-primary" id="modal-q">View Details</a> </td>
+                    <td class="content_box_type"> </td>
+                    <td class="content_box_quantity"></td>
+                    <td class="content_duration"></td>
+                    <td class="content_total">  </td>
+                    <td> <i class="fa fa-check"></i></td>
+                    <td class="content_date">  </td>
+                  </tr>
+                </tbody>
+
+              </table>
+
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="custodial_records li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ref No.</th>
+                    <th scope="col">Issue Date</th>
+                    <th scope="col">Release</th>
+                    <th scope="col">Extension</th>
+                    <th scope="col">Days Left</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp" class="custodial_ref_no">   </td>
+                    <td class="custodial_issue_date">  </td>
+                    <td class="custodial_release"> </td>
+                    <td class="custodial_extension">  </td>
+                    <td class="custodial_days_left">  </td>
+                    <td id="iop" class="custodial_status"> </td>
+                    <td class="custodial_last_updated_date">   </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="payment_history li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount Paid</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Content </th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp" class="payment_paid">    </td>
+                    <td class="payment_balance"> </td>
+                    <td class="content_txt payment_content">  </td>
+                    <td class="payment_time">    </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="refernece li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount Paid</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Content </th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp" class="payment_paid">    </td>
+                    <td class="payment_balance">   </td>
+                    <td class="payment_content"> </td>
+                    <td class="payment_time">  </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="enquiry li">
+
+          <div class="iq">
+            <form>
+              <div class="form-group">
+                <small id="emailHelp" class="form-text text-muted">We usually reply within an hour</small>
+                <br>
+                <label for="exampleInputEmail1">Subject</label>
+                <input type="text" class="form-control" id="subjectType" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6 vb">
+                  <label for="emailhere">Email</label>
+                  <input type="email"class="form-control emm email-txt" name="emailhere" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6 vb vbb">
+                  <label for="phonenumber">Contact Number</label>
+                  <input class="form-control tel-txt" type="tel" name="phonenumber" value="" required>
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <label for="phonenumber">Your Message</label>
+                <textarea name="name" rows="8" cols="80" id="txt" class="form-control message-txt" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="sendMessage();">Submit</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-for-vw">
+        <div class="card"  id="cvb">
+          <div class="card-body">
+           <div class="img-cnt">
+            <img src="img/gold-v.jpeg" class="cvd-img" alt="Item Deposited">
+            <img src="img/safe.mp4" class="cvd-img" alt="Item Deposited">
+          </div>
+          <br><br>
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Purpose
+            </div>
+            <div class="col-nb-6">
+              Safe keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Box Type
+            </div>
+            <div class="col-nb-6">
+              VIP 30" X 20" X 19"
+            </div>
+
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Cost Per Box
+            </div>
+            <div class="col-nb-6">
+              $1,158.60
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Number of Boxes
+            </div>
+            <div class="col-nb-6">
+              10
+            </div>
+          </div>
+
+
+
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Amount Paid
+            </div>
+            <div class="col-nb-6">
+              $23,172
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Balance
+            </div>
+            <div class="col-nb-6">
+              $38,000
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Narration
+            </div>
+            <div class="col-nb-6">
+              Safe Keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Custodian Reference
+            </div>
+            <div class="col-nb-6">
+              NPV2098
+            </div>
+          </div>
+
+          <div class="container" style="width: 84%; text-align: right;">
+            <br>
+            <button type="button" name="button" class="btn btn-primary" id="modal-x">Close</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="acc-cnt" id="acc-cnt-22">
+      <header>
+
+      </header>
+      <div class="x-slp" id="ctls">
+        <div class="psn">
+          <h5 id="nou">Welcome: Walter Elvin Heslop </h5>
+          <i class="fa fa-navicon menu-psn"></i>
+          <i class="fa fa-bars menu-btn" style="display: none;" onclick="showMenu();"></i>
+        </div>
+        <ul id="ixr" class="menu-ixr">
+          <li class="profile-btn"> <i class="glyphicon glyphicon-user"></i> Profile</li>
+          <li class="contents-btn"> <i class="fa fa-bar-chart"></i> Contents</li>
+          <li class="custodial_records-btn"> <i class="fa fa-users"></i> Custodial Records </li>
+          <li class="payment_history-btn"> <i class="fa fa-money"></i> Payment History </li>
+          <li class="enquiry-btn"> <i class="fa fa-envelope"></i> Make Enquiry </li>
+          <li class="refernece-btn"> <i class="fa fa-money"></i> Reference </li>
+          <li> <i class="fa fa-sign-out"></i> <a href="acc.html">Logout</a> </li>
+        </ul>
+      </div>
+      <div class="x-slp" id="x-ct"> <!-- WARNING: right -->
+
+        <div class="profile li">
+          <div class="uxb">
+            <div class="uxx"> 
+              <img src="img/gold-v.jpeg" alt="">
+               <span id="smn">
+                 <h5 id="dn">Walter Elvin Heslop</h5>
+                 <h5 id="em">EMAIL: <small>waltelvinh1530@yahoo.com </small> </h5>
+               </span>
+            </div>
+          </div>
+
+          <div class="cv">
+            <ul>
+              <li class="po">
+                <span id="nme">
+                  depositor
+                </span>
+                <span id="nmee">
+                  Customer: <small>Walter Elvin Heslop</small>
+
+                  <ul>
+                    <li> <span id="xc">Represented by:</span> <small>Paul Spielberg</small> </li>
+                  </ul>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  email address
+                </span>
+                <span id="nmee">
+                   <small id="lp">waltelvinh1530@yahoo.com </small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  next of kin
+                </span>
+                <span id="nmee">
+                   <small id="lp">Beverly Heslop</small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  initial deposit
+                </span>
+                <span id="nmee">
+                   <small id="lp">2008-02-21</small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  Address
+                </span>
+                <span id="nmee">
+                   <small id="lp">Netherlands </small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  date and time
+                </span>
+                <span id="nmee">
+                   <small id="lp" class="date-time date-man">2020-05-21 : 15:55:56 pm  </small>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contents li">
+
+          <div class="iq">
+            <h5>Content by <i class="fa fa-arrow-right"></i>  Walter Elvin Heslop</h5>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Box-type</th>
+                    <th scope="col">Box-qty</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+
+                <tbody id="rf">
+                  <tr>
+                    <td id="pp"> <img src="gold-vv.jpeg" alt=""></td>
+                    <td>155 Kgs Gold <br> </td>
+                    <td>VIP 30" X 20" X 19" </td>
+                    <td>1 </td>
+                    <td>@6 Years </td>
+                    <td> 2,000.00 </td>
+                    <td> <i class="fa fa-check"></i></td>
+                    <td> 2014-02-21 </td>
+                  </tr>
+                </tbody>
+
+              </table>
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="custodial_records li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ref No.</th>
+                    <th scope="col">Issue Date</th>
+                    <th scope="col">Release</th>
+                    <th scope="col">Extension</th>
+                    <th scope="col">Days Left</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp"> NPV3568  </td>
+                    <td> 2014-02-21  </td>
+                    <td> 2020-07-02  </td>
+                    <td>  </td>
+                    <td> -2,295 days </td>
+                    <td id="iop"> Expired</td>
+                    <td> 2014-02-21 15:57:20 pm  </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="payment_history li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount Paid</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Content </th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp"> $28,000.00   </td>
+                    <td> $20,000.00   </td>
+                    <td> 	155 Kgs Gold   </td>
+                    <td>  Thursday 21st of February 2000 04:07:47 PM </td>
+                  </tr>
+                  <tr>
+                    <td id="pp"> $53,000.00  </td>
+                    <td> $10,350.00   </td>
+                    <td> 	155 Kgs Gold   </td>
+                    <td>  Wednesday 13th of January 2021 02:30:23 PM </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="refernece li">
+
+          <div class="iq">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount Paid</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Content </th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="pp"> $28,000.00   </td>
+                    <td> $63,350.00  </td>
+                    <td> 	155 Kgs Gold   </td>
+                    <td>  Thursday 21st of February 2000 04:07:47 PM </td>
+                  </tr>
+                  <tr>
+                    <td id="pp"> $53,000.00  </td>
+                    <td> $10,350.00   </td>
+                    <td> 	155 Kgs Gold   </td>
+                    <td>  Tuesday 13th of January 2021 02:30:23 PM </td>
+                  </tr>
+                </tbody>
+
+              </table>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div class="enquiry li">
+
+          <div class="iq">
+            <form>
+              <div class="form-group">
+                <small id="emailHelp" class="form-text text-muted">We usually reply within an hour</small>
+                <br>
+                <label for="exampleInputEmail1">Subject</label>
+                <input type="text" class="form-control" id="subjectType" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6 vb">
+                  <label for="emailhere">Email</label>
+                  <input type="email"class="form-control emm email-txt" name="emailhere" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6 vb vbb">
+                  <label for="phonenumber">Contact Number</label>
+                  <input class="form-control tel-txt" type="tel" name="phonenumber" value="">
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <label for="phonenumber">Your Message</label>
+                <textarea name="name" rows="8" cols="80" id="txt" class="form-control message-txt"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="sendMessage();">Submit</button>
+            </form>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+      <div class="modal-for-vw">
+        <div class="card"  id="cvb">
+          <div class="card-body">
+           <div class="img-cnt">
+            <img src="xxcc.jpeg" class="cvd-img" alt="Item Deposited">
+            <img src="vv.jpeg" class="cvd-img" alt="Item Deposited">
+          </div>
+          <br><br>
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Purpose
+            </div>
+            <div class="col-nb-6">
+              Safe keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Box Type
+            </div>
+            <div class="col-nb-6">
+              VIP 30" X 20" X 19"
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Cost Per Box
+            </div>
+            <div class="col-nb-6">
+              $1,158.60
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Number of Boxes
+            </div>
+            <div class="col-nb-6">
+              1
+            </div>
+          </div>
+
+
+
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Amount Paid
+            </div>
+            <div class="col-nb-6">
+              $76,172
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Balance
+            </div>
+            <div class="col-nb-6">
+              $10,350.00
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Narration
+            </div>
+            <div class="col-nb-6">
+              Safe Keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Custodian Reference
+            </div>
+            <div class="col-nb-6">
+              NPV2098
+            </div>
+          </div>
+
+          <div class="container" style="width: 84%; text-align: right;">
+            <br>
+            <button type="button" name="button" class="btn btn-primary" id="modal-x">Close</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="acc-cnt cas" id="acc-cnt-3">
+      <header>
+
+      </header>
+
+      <div class="c-header">
+        <img src="logoo.jpg" alt="Security Vault">
+        <h3>GTS SECURITY FREIGHT</h3>
+        <p>SECURITY SERVICES / SAFEKEEPING / WAREHOUSING </p>
+        <p>contact@royalturinvault.com</p>
+      </div>
+
+      <div class="certificate-bx">
+        <h6>CERTIFICATE OF DEPOSIT</h6>
+
+        <ul>
+          <li class="hgh">SECURITY CODE : GWICL/FN/RT/13</li>
+          <li>OUR REF : RTV70415</li>
+          <li class="hgh">NAME OF DEPOSITOR : <span id="nameOfDepositor"></span></li>
+          <li>WEIGHT : <span id="weightOfItem">150KG</span> </li>
+          <li class="hgh">DATE OF DEPOSIT: <span id="dateOfDeposit"></span> </li>
+          <li>PURPOSE OF DEPOSIT : <span id="purposeOfDeposit"></span></li>
+          <li class="hgh">ITEM DEPOSITED : <span id="itemDeposited"></span></li>
+          <li>NAME OF BENEFICIARY : <span id="nameOfBeneficiary"></span></li>
+          <li class="hgh">MONTHLY CHARGES : <span id="monthlyCharges"></span></li>
+        </ul>
+
+        
+        <div class="c-logout">
+          <a href="acc.html"> <i class="fa fa-sign-out"></i> SIGN OUT</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="acc-cnt cas" id="acc-cnt-4">
+      <header>
+
+      </header>
+
+      <div class="c-header">
+        <img src="logoo.jpg" alt="Security Vault">
+        <h3>GTS SECURITY FREIGHT</h3>
+        <h5>ASIA/EUROPE/AUSTRALIA</h3>
+        <p>SECURITY SERVICES / SAFEKEEPING / WAREHOUSING </p>
+        <p>CONTACT@GTSSECURITYFREIGHT.COM</p>
+      </div>
+
+      <div class="certificate-bx">
+        <h6>CERTIFICATE OF DEPOSIT</h6>
+
+        <ul>
+          <li class="hgh">SECURITY CODE : GWICL/FN/RT/13</li>
+          <li>OUR REF : RTV70415</li>
+          <li class="hgh">NAME OF DEPOSITOR : HELMUT HUGGINS</li>
+          <li>WEIGHT : 265kilos</li>
+          <li class="hgh">DATE OF DEPOSIT: 4TH MARCH, 2015.</li>
+          <li>PURPOSE OF DEPOSIT : SAFEKEEPING</li>
+          <li class="hgh">ITEM DEPOSITED : 4 METALLIC TRUNK</li>
+          <li>NAME OF BENEFICIARY : STACY MOORE</li>
+          <li class="hgh">MONTHLY CHARGES : €150.00</li>
+        </ul>
+        <div class="c-logout">
+          <a href="acc.html"> <i class="fa fa-sign-out"></i> SIGN OUT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc-cnt cas" id="acc-cnt-5">
+      <header>
+
+      </header>
+
+      <div class="c-header">
+        <img src="logoo.jpg" alt="Security Vault">
+        <h3>GTS SECURITY FREIGHT</h3>
+        <h5>ASIA/EUROPE/AUSTRALIA</h3>
+        <p>SECURITY SERVICES / SAFEKEEPING / WAREHOUSING </p>
+        <p>CONTACT@GTSSECURITYFREIGHT.COM</p>
+      </div>
+
+      <div class="certificate-bx">
+        <h6>DETAILS OF DEPOSIT</h6>
+
+        <ul>
+          <li class="hgh">SECURITY CODE : GWICL/FN/RT/15</li>
+          <li>OUR REF : RTV70415</li>
+          <li class="hgh">NAME OF DEPOSITOR : DANIEL ROCKSON</li>
+          <li>WEIGHT : 45 KG</li>
+          <li class="hgh">DATE OF DEPOSIT: 2ND FEBRUARY, 2016.</li>
+          <li>PURPOSE OF DEPOSIT : SAFEKEEPING</li>
+          <li class="hgh">ITEM DEPOSITED : 2 METALLIC TRUNK</li>
+          <li>NAME OF BENEFICIARY : ROBERTS ROCKSON</li>
+          <li class="hgh">MONTHLY CHARGES : $250.00</li>
+        </ul>
+        <div class="c-logout">
+          <a href="acc.html"> <i class="fa fa-sign-out"></i> SIGN OUT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc-cnt cas" id="acc-cnt-6">
+      <header>
+
+      </header>
+
+      <div class="c-header">
+        <img src="logoo.jpg" alt="Security Vault">
+        <h3>GTS SECURITY FREIGHT</h3>
+        <h5>ASIA/EUROPE/AUSTRALIA</h3>
+        <p>SECURITY SERVICES / SAFEKEEPING / WAREHOUSING </p>
+        <p>CONTACT@GTSSECURITYFREIGHT.COM</p>
+      </div>
+
+      <div class="certificate-bx">
+        <h6>CERTIFICATE OF DEPOSIT</h6>
+
+        <ul>
+          <li class="hgh">SECURITY CODE : GWICL/FN/RT/10</li>
+          <li>OUR REF : RTV70410</li>
+          <li class="hgh">NAME OF DEPOSITOR : SHIRLEY ADDISON</li>
+          <li>WEIGHT : 42KG</li>
+          <li class="hgh">DATE OF DEPOSIT: 12 APRIL, 2015.</li>
+          <li>PURPOSE OF DEPOSIT : SAFEKEEPING</li>
+          <li class="hgh">ITEM DEPOSITED : 4 METALLIC TRUNK</li>
+          <li>NAME OF BENEFICIARY : SHIRLEY ADDISON & KEVIN RYAN</li>
+          <li class="hgh">MONTHLY CHARGES : $400.00</li>
+
+        </ul>
+        <div class="c-logout">
+          <a href="acc.html"> <i class="fa fa-sign-out"></i> SIGN OUT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc-cnt cas" id="acc-cnt-7">
+      <header>
+
+      </header>
+
+      <div class="c-header">
+        <img src="logoo.jpg" alt="Security Vault">
+        <h3>GTS SECURITY FREIGHT</h3>
+        <h5>ASIA/EUROPE/AUSTRALIA</h3>
+        <p>SECURITY SERVICES / SAFEKEEPING / WAREHOUSING </p>
+        <p>CONTACT@GTSSECURITYFREIGHT.COM</p>
+      </div>
+
+      <div class="certificate-bx">
+        <h6>CERTIFICATE OF DEPOSIT</h6>
+        <ul>
+          <li class="hgh">SECURITY CODE : GWICL/FN/RT/10</li>
+          <li>OUR REF : RTV70410</li>
+          <li class="hgh">NAME OF DEPOSITOR : MR RODRIGUEZ WOOD</li>
+          <li>WEIGHT : 380KG</li>
+          <li class="hgh">DATE OF DEPOSIT: 30TH AUGUST, 2016.</li>
+          <li>PURPOSE OF DEPOSIT : SAFEKEEPING</li>
+          <li class="hgh">ITEM DEPOSITED : TWO TRUCKS BOXES</li>
+          <li>NAME OF BENEFICIARY : MICHAEL WOOD</li>
+          <li class="hgh">MONTHLY CHARGES : $120.00</li>
+          <li class="hgh">TAX: $525,000.00</li>
+        </ul>
+        <div class="c-logout">
+          <a href="acc.html"> <i class="fa fa-sign-out"></i> SIGN OUT</a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var d = new Date();
+
+      var month = d.getMonth()+1;
+      var day = d.getDate();
+
+      var output = d.getFullYear() + '/' +
+          (month<10 ? '0' : '') + month + '/' +
+          (day<10 ? '0' : '') + day;
+          $(".date-man").html("output");
+
+
+    </script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDs1iHCLo3aMYqTqkt_fMNmrvVY0o43UKU",
+          authDomain: "bankgame-9e3da.firebaseapp.com",
+          databaseURL: "https://bankgame-9e3da.firebaseio.com",
+          projectId: "bankgame-9e3da",
+          storageBucket: "bankgame-9e3da.appspot.com",
+          messagingSenderId: "550149232838",
+          appId: "1:550149232838:web:4b4564d2115703ea181fc7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+    <script type="text/javascript" src="js/dbb.js"></script>
+    <script type="text/javascript" src="js/acc.js"></script>
+  </body>
+</html>

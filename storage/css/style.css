@@ -1,0 +1,144 @@
+.navbar-brand {
+  font-family: sans-serif!important;
+  letter-spacing: 2px;
+  color: black!important;
+}
+.navbar-brand span{
+  font-size: 150%;
+  color: green;
+}
+.item{
+  font-size: 150%!important;
+  color: red!important;
+  letter-spacing: 2px;
+}
+#homepage p{
+  color: #9d9d9d;
+  font-size: 120%;
+}
+.card{
+  text-align: center;
+}
+
+#cols{
+  margin-top: 80px;
+}
+
+#trackbox{
+  background: rgb(105,165,20);
+  text-align: center;
+  padding: 30px 0;
+}
+input[type="text"]{
+  padding: 15px 5px;
+  text-align: center;
+}
+input[type="submit"]{
+  margin-left: 10px;
+  width: 100px;
+}
+
+
+/*****************************************************/
+/*account page*/
+#load{
+  width: 32%!important;
+  display: none;
+}
+.login{
+  margin-top: 100px;
+}
+.login p{
+  font-family: arial;
+  letter-spacing: 1px;
+  font-size: 130%;
+  margin-top: 20px;
+}
+.login #box{
+  border: 1px solid #9d9d9d;
+  width: 30%;
+  text-align: left;
+  padding: 20px 20px;
+}
+.login input{
+  width: 100%;
+  padding: 5px 5px;
+  text-align: left;
+}
+.login input[type="submit"]{
+  text-align: center;
+  margin-top: 20px;
+}
+#depositor{
+  display: none;
+  padding: 50px 0;
+}
+#depositor p{
+  color: #9d9d9d;
+}
+#depoinfo{
+  width: 50%;
+  padding: 100px 0;
+}
+#depoinfo input{
+  text-align: left;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+small,br{
+  color: red;
+  display: none;
+}
+#logout{
+  display: none;
+}
+
+
+/***************************************************/
+/*About Us*/
+#col1{
+  background-image: url("img/ss.jpg");
+  height: 300px;
+}
+/***************************************************/
+/*Contact Us*/
+.cont p{
+  color: #9d9d9d!important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #depoinfo{
+    width: 90%;
+  }
+  .login{
+    margin-top: 10px;
+  }
+  .login img{
+    width: 17%!important;
+  }
+  .login #box{
+    width: 95%!important;
+  }
+
+  #depositor{
+    padding: 10px 0;
+  }
+  .navbar-brand{
+    font-size: 17px!important;
+  }
+
+  #footer .col-sm-3{
+    margin-bottom: 30px;
+  }
+
+}
+
+#footer{
+  margin-top: 30px;
+  background: #31383d;
+  color: #fff;
+}

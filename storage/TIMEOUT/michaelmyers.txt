@@ -1,0 +1,45 @@
+<div class="container" id="depoinfo">
+          <div class="form-group">
+            <label for="usr"> Name of Depositor:</label>
+            <input type="text" class="form-control" id="usr" value="Michael Myers" disabled>
+          </div>
+          <div class="form-group">
+            <label for="usr">Nationality:</label>
+            <input type="text" class="form-control" id="usr" value="German/American" disabled >
+          </div>
+          <div class="form-group">
+            <label for="usr">Purpose of Deposit:</label>
+            <input type="text" class="form-control" id="usr" value="Safe-Keeping / Security" disabled >
+          </div>
+          <div class="form-group">
+            <label for="usr">Next of kin:</label>
+            <input type="text" class="form-control" id="usr" value="Kymberly Myers" disabled >
+          </div>
+          <div class="form-group">
+            <label for="usr">Date of Deposit:</label>
+            <input type="text" class="form-control" id="usr" value="07/02/2013" disabled >
+          </div>
+          <div class="form-group">
+            <label for="usr">Items deposited</label>
+            <input type="text" class="form-control" id="usr" value="180kilos (Alluvial Gold Bars)" disabled >
+          </div>
+          <div class="form-group">
+            <label for="usr">Serial Number</label>
+            <input type="text" class="form-control" id="usr" value="00238" disabled >
+          </div>
+          <div class="form-group">
+            <label for="usr">Security Code</label>
+            <input type="text" class="form-control" id="usr" value="GWICL/FN/RT/13" disabled >
+          </div>
+
+          <!-- WARNING:
+
+          <div class="form-group">
+            <label for="usr">Container Value</label>
+            <input type="text" class="form-control" id="usr" value="$5,000,000.00" disabled >
+          </div>
+          -->
+
+          <a  href="account.htm"><span class="glyphicon glyphicon-log-out"></span> Log-out</a>
+
+        </div>

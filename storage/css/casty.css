@@ -1,0 +1,35 @@
+.c-header{
+  padding: 30px 0;
+  text-align: center;
+}
+
+.certificate-bx{
+  text-align: center;
+  MAX-WIDTH: 590PX;
+  margin: auto;
+}
+.certificate-bx span{
+  text-transform: uppercase;
+
+}
+.certificate-bx h6{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+#acc-cnt-3{
+  overflow-x: auto;
+  background: #fff;
+}
+.certificate-bx ul li{
+  position: relative;
+  list-style: none;
+  font-size: 19px;
+  padding: 5px;
+}
+.hgh{
+  background: rgba(98,156,179, 0.5);
+}
+.c-logout{
+  padding: 20px 0;
+}
