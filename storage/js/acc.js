@@ -48,7 +48,7 @@ $(".enquiry-btn").click(
 $("#error").hide();
 $("#lme-in-btn").click(
   function(){
-    var email = $("#email").val();
+    var email = $("#email").val().toLowerCase();
     var password = $("#pwd").val();
     if (email != '' && password != '') {
       $('.security').removeClass('hide');
